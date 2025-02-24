@@ -1,10 +1,10 @@
 # Fdb version 4
-["xdvipdfmx"] 1740386730.52251 "resume.xdv" "resume.pdf" "resume" 1740386731.01818 0
-  "resume.xdv" 1740386730.46747 100216 a16cadc2c8453599670215b322f5d19b "xelatex"
+["xdvipdfmx"] 1740389163.0258 "resume.xdv" "resume.pdf" "resume" 1740389163.51936 0
+  "resume.xdv" 1740389162.96721 100216 7b81a38e93ba3a3ede7c589b8dd78b62 "xelatex"
   (generated)
   "resume.pdf"
   (rewritten before read)
-["xelatex"] 1740386728.5158 "/Users/izzan/Documents/Projects/resume/examples/resume.tex" "resume.xdv" "resume" 1740386731.01661 0
+["xelatex"] 1740389161.17109 "/Users/izzan/Documents/Projects/resume/examples/resume.tex" "resume.xdv" "resume" 1740389163.51781 0
   "/Users/izzan/Documents/Projects/resume/examples/resume.tex" 1740385267.90918 3766 25e9d29062f39a3e786e5a74d85a94cf ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
@@ -174,10 +174,10 @@
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
   "awesome-cv.cls" 1740376188.18848 30289 cc80ede4bd61091ceb141f883cfe30ea ""
   "cv/skills.tex" 1740385243.11378 1505 70da450fe286594b71f65edd6407470a ""
-  "resume.aux" 1740386730.4668 72 8c65bdc4d59188fb5b97343f16100895 "xelatex"
+  "resume.aux" 1740389162.96632 72 8c65bdc4d59188fb5b97343f16100895 "xelatex"
   "resume.tex" 1740385267.90918 3766 25e9d29062f39a3e786e5a74d85a94cf ""
   "resume/education.tex" 1740376155.96059 1259 ad39b06a68809389ab6fabe071688201 ""
-  "resume/experience.tex" 1740386728.29424 9576 5793a15542a7c643eb4e6ba98158749c ""
+  "resume/experience.tex" 1740389158.95744 9576 5793a15542a7c643eb4e6ba98158749c ""
   "resume/summary.tex" 1740373236.91765 961 2031d75b6e7e7e60b208d74ae2d99e02 ""
   (generated)
   "resume.aux"
