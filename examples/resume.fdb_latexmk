@@ -1,11 +1,11 @@
 # Fdb version 4
-["xdvipdfmx"] 1740385245.25701 "resume.xdv" "resume.pdf" "resume" 1740385245.72625 0
-  "resume.xdv" 1740385245.2006 99912 e255713837eb35a9758ba485b30a87d5 "xelatex"
+["xdvipdfmx"] 1740386730.52251 "resume.xdv" "resume.pdf" "resume" 1740386731.01818 0
+  "resume.xdv" 1740386730.46747 100216 a16cadc2c8453599670215b322f5d19b "xelatex"
   (generated)
   "resume.pdf"
   (rewritten before read)
-["xelatex"] 1740385243.31084 "/Users/izzan/Documents/Projects/resume/examples/resume.tex" "resume.xdv" "resume" 1740385245.72466 0
-  "/Users/izzan/Documents/Projects/resume/examples/resume.tex" 1740381035.60164 3766 25e9d29062f39a3e786e5a74d85a94cf ""
+["xelatex"] 1740386728.5158 "/Users/izzan/Documents/Projects/resume/examples/resume.tex" "resume.xdv" "resume" 1740386731.01661 0
+  "/Users/izzan/Documents/Projects/resume/examples/resume.tex" 1740385267.90918 3766 25e9d29062f39a3e786e5a74d85a94cf ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm" 1136768653 1528 abec98dbc43e172678c11b3b9031252a ""
@@ -174,10 +174,10 @@
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
   "awesome-cv.cls" 1740376188.18848 30289 cc80ede4bd61091ceb141f883cfe30ea ""
   "cv/skills.tex" 1740385243.11378 1505 70da450fe286594b71f65edd6407470a ""
-  "resume.aux" 1740385245.19998 72 8c65bdc4d59188fb5b97343f16100895 "xelatex"
-  "resume.tex" 1740381035.60164 3766 25e9d29062f39a3e786e5a74d85a94cf ""
+  "resume.aux" 1740386730.4668 72 8c65bdc4d59188fb5b97343f16100895 "xelatex"
+  "resume.tex" 1740385267.90918 3766 25e9d29062f39a3e786e5a74d85a94cf ""
   "resume/education.tex" 1740376155.96059 1259 ad39b06a68809389ab6fabe071688201 ""
-  "resume/experience.tex" 1740385188.21441 9545 a2c0b963c0d22bb054e9785f450d1ebd ""
+  "resume/experience.tex" 1740386728.29424 9576 5793a15542a7c643eb4e6ba98158749c ""
   "resume/summary.tex" 1740373236.91765 961 2031d75b6e7e7e60b208d74ae2d99e02 ""
   (generated)
   "resume.aux"
