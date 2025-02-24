@@ -5,12 +5,9 @@
 % This template has been downloaded from:
 % https://github.com/posquit0/Awesome-CV
 %
-% Original author:
+% Author:
 % Claud D. Park <posquit0.bj@gmail.com>
 % http://www.posquit0.com
-%
-% Modifications by:
-% Junhao Dong <junhao.dong96@gmail.com>
 %
 % Template license:
 % CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
@@ -26,13 +23,10 @@
 % Configure page margins with geometry
 \geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
 
-% Specify the location of the included fonts
-\fontdir[fonts/]
-
 % Color for highlights
 % Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
 %                 awesome-nephritis, awesome-concrete, awesome-darknight
-\colorlet{awesome}{awesome-skyblue}
+\colorlet{awesome}{awesome-red}
 % Uncomment if you would like to specify your own color
 % \definecolor{awesome}{HTML}{CA63A8}
 
@@ -42,6 +36,7 @@
 % \definecolor{text}{HTML}{333333}
 % \definecolor{graytext}{HTML}{5D5D5D}
 % \definecolor{lighttext}{HTML}{999999}
+% \definecolor{sectiondivider}{HTML}{5D5D5D}
 
 % Set false if you don't want to highlight section with awesome color
 \setbool{acvSectionColorHighlight}{true}
@@ -49,54 +44,69 @@
 % If you would like to change the social information separator from a pipe (|) to something else
 \renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
 
-\makeatletter
-\patchcmd{\@sectioncolor}{\color}{\mdseries\color}{}{}
-\makeatother
 
 %-------------------------------------------------------------------------------
 %	PERSONAL INFORMATION
 %	Comment any of the lines below if they are not required
 %-------------------------------------------------------------------------------
 % Available options: circle|rectangle,edge/noedge,left/right
-% \photo[rectangle,edge,right]{profile}
-\name{Izzan}{Fakhril Islam}
-\position{Software Engineer}
-% \address{address}
+% \photo{./examples/profile.png}
+\name{Claud D.}{Park}
+\position{Site Reliability Engineer{\enskip\cdotp\enskip}Software Architect}
+\address{235, World Cup buk-ro, Mapo-gu, Seoul, 03936, Republic of Korea}
 
-% \mobile{(+62) 896-6751-5857}
-\email{izzanfi@hotmail.com}
-% \homepage{homepage}
-\github{izznfkhrlislm}
-\linkedin{izznfkhrlislm}
-\gitlab{izznfkhrlislm}
+\mobile{(+82) 10-9030-1843}
+\email{posquit0.bj@gmail.com}
+%\dateofbirth{January 1st, 1970}
+\homepage{www.posquit0.com}
+\github{posquit0}
+\linkedin{posquit0}
+% \gitlab{gitlab-id}
 % \stackoverflow{SO-id}{SO-name}
 % \twitter{@twit}
 % \skype{skype-id}
 % \reddit{reddit-id}
-% \extrainfo{extra informations}
+% \medium{medium-id}
+% \kaggle{kaggle-id}
+% \hackerrank{hackerrank-id}
+% \telegram{telegram-username}
+% \googlescholar{googlescholar-id}{name-to-display}
+%% \firstname and \lastname will be used
+% \googlescholar{googlescholar-id}{}
+% \extrainfo{extra information}
+
+\quote{``Be the change that you want to see in the world."}
+
 
 %-------------------------------------------------------------------------------
 \begin{document}
 
-% Print the header with above personal informations
+% Print the header with above personal information
 % Give optional argument to change alignment(C: center, L: left, R: right)
-\makecvheader[C]
+\makecvheader
 
 % Print the footer with 3 arguments(<left>, <center>, <right>)
 % Leave any of these blank if they are not needed
-% \makecvfooter
-%   {\today}
-%   {Junhao Dong~~~·~~~Résumé}
-%   {\thepage}
+\makecvfooter
+  {\today}
+  {Claud D. Park~~~·~~~Curriculum Vitae}
+  {\thepage}
+
 
 %-------------------------------------------------------------------------------
 %	CV/RESUME CONTENT
 %	Each section is imported separately, open each file in turn to modify content
 %-------------------------------------------------------------------------------
-\input{resume/education.tex}
-\input{resume/skills.tex}
-\input{resume/experience.tex}
-\input{resume/projects.tex}
+\input{cv/education.tex}
+\input{cv/skills.tex}
+\input{cv/experience.tex}
+\input{cv/extracurricular.tex}
+\input{cv/honors.tex}
+\input{cv/certificates.tex}
+\input{cv/presentation.tex}
+\input{cv/writing.tex}
+\input{cv/committees.tex}
+
 
 %-------------------------------------------------------------------------------
 \end{document}
